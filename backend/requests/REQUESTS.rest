@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/phonebook
+content-type: application/json
+
+{
+    "name" : "Chill guy",
+    "number": "142-123-8456"
+}
+
+###
+
+DELETE http://localhost:3001/api/phonebook/5
+
+###
+
+GET http://localhost:3001/api/phonebook
+
+###
