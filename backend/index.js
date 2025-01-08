@@ -73,5 +73,5 @@ app.delete('/api/phonebook/:id', (request, response) => {
     : response.status(404).end()   
 })
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 app.listen(PORT)
