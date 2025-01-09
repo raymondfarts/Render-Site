@@ -30,6 +30,8 @@ app.get('/info',(request, response) => {
   })
 
 app.get('/api/phonebook', (request, response) => {
+    console.log('request received');
+    
     response.json(phonebook)
 })
 

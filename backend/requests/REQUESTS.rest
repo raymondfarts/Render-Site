@@ -12,6 +12,6 @@ DELETE http://localhost:3001/api/phonebook/5
 
 ###
 
-GET http://localhost:3001/api/phonebook
+GET https://render-site-jdba.onrender.com/api/phonebook
 
 ###
