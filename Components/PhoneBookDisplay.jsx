@@ -13,7 +13,7 @@ export default function PhoneBookDisplay ({phonebook, filteredPhonebook, setPhon
       setUpdatedDB(prev => prev + 1)
       // setPhonebook(phonebook.filter((person) => person.id !== id))
     }
-
+    
     const people = phonebook.map((person) => <><div key={person.name}>{person.name} : {person.number} <button onClick={handleDelete} value={person.id} name={person.name}>Delete</button></div> </>)
     const filteredPeople = filteredPhonebook.map((person) => <><div key={person.name}>{person.name} : {person.number} <button onClick={handleDelete} value={person.id} name={person.name}>Delete</button></div> </>)
 
